@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(252, 249, 249);
+    color: black;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 8%;
+    background-color: red;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+nav{
+    display: flex;
+    gap: 24px;
+}
+
+nav a{
+    color: white;
+    font-weight: bold;
+    padding: 3px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: red;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.welcome{
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #eef0f5;
+}
+
+.welcome h1{
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+
+.welcome p{
+    color: red;
+    font-size: 18px;
+}
+
+.highlights {
+    padding: 50px 8%;
+}
+
+.highlights > h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cards{
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.card{
+    background-color: white;
+    padding: 28px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px red;
+
+}
+
+.card p {
+    color: gray;
+    line-height: 1.6;
+}
+
+.card a{
+    display: inline-block;
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.card a:hover {
+    color: red;
+}
+
+footer {
+    text-align: center;
+    padding: 24px;
+    color: gray;
+}
+
+.officer{
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+.officer th,
+.officer td{
+    padding: 25px;
+    text-align: center;
+}
+
+.officer th{
+    background-color: red;
+    color: white;
+    box-shadow:0 0 20px white;
+}
+
+.officer td{
+    background-color: peachpuff;
+    box-shadow: 0 0 20px red;
+}
+
+.wholetable{
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.highlights{
+    text-align: center;
+}
+
+.profile p{
+    color: black;
+}
+.profile h4{
+    color: red;
+    font-family: Times New Roman;
+}
+#student-image {
+    width: 180px;
+    height: 180px;
+    display: block;
+    margin: 0 auto 40px;
+}
+
+#student-name,
+#student-position,
+#student-birthday{
+    color: black
+}
+table a{
+    text-decoration: none;
+    color: red;
+}
